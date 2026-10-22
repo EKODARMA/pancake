@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SitusProfesional | Solusi Digital Anda</title>
+    <!-- Google Fonts & Font Awesome Icons -->
+    <link href="https://googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Situs<span>Digital</span></a>
+            <ul class="nav-menu">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#fitur">Fitur</a></li>
+                <li><a href="#harga">Harga</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <a href="https://wa.me" class="btn-nav" target="_blank">Hubungi Kami</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="badge">🚀 Tech Premium & Hosting Gratis</span>
+                <h1>Bangun Kehadiran Digital Bisnis Anda</h1>
+                <p>Miliki website landing page modern yang super cepat, aman, dan responsif. Dioptimalkan penuh untuk konversi penjualan bisnis Anda tanpa biaya langganan hosting bulanan.</p>
+                <div class="hero-buttons">
+                    <a href="https://wa.me" class="btn btn-primary" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Konsultasi Gratis
+                    </a>
+                    <a href="#fitur" class="btn btn-secondary">Pelajari Fitur</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://unsplash.com" alt="Dashboard Bisnis Modern">
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section class="features" id="fitur">
+        <div class="section-header">
+            <h2>Keunggulan Website Kami</h2>
+            <p>Fitur premium terbaik untuk menunjang performa bisnis Anda di internet.</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="icon-box"><i class="fas fa-bolt"></i></div>
+                <h3>Super Cepat (SEO Friendly)</h3>
+                <p>Kode bersih dan optimasi CDN Cloudflare membuat website terbuka dalam sekejap mata.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon-box"><i class="fas fa-mobile-alt"></i></div>
+                <h3>Desain Responsif</h3>
+                <p>Tampilan otomatis menyesuaikan dengan sempurna di HP android, iPhone, tablet, maupun laptop.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon-box"><i class="fas fa-shield-alt"></i></div>
+                <h3>Sertifikat SSL Aman</h3>
+                <p>Dilengkapi HTTPS gratis dari Cloudflare untuk memastikan keamanan data konsumen.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING SECTION -->
+    <section class="pricing" id="harga">
+        <div class="section-header">
+            <h2>Paket Harga Transparan</h2>
+            <p>Pilih paket yang paling sesuai dengan kebutuhan ekspansi bisnis Anda.</p>
+        </div>
+        <div class="pricing-grid">
+            <div class="price-card">
+                <h3>Paket Basic</h3>
+                <div class="price">Rp 499.000</div>
+                <ul>
+                    <li><i class="fas fa-check"></i> 1 Halaman Landing Page</li>
+                    <li><i class="fas fa-check"></i> Integrasi Tombol WhatsApp</li>
+                    <li><i class="fas fa-check"></i> Desain Standar Responsif</li>
+                    <li><i class="fas fa-check"></i> Domain .pages.dev Gratis</li>
+                </ul>
+                <a href="#" class="btn btn-secondary-outline">Pilih Paket</a>
+            </div>
+            <div class="price-card featured">
+                <span class="popular-tag">Paling Populer</span>
+                <h3>Paket Bisnis</h3>
+                <div class="price">Rp 1.299.000</div>
+                <ul>
+                    <li><i class="fas fa-check"></i> Desain Premium Custom</li>
+                    <li><i class="fas fa-check"></i> Bonus Custom Domain (.com/.id) 1 Thn</li>
+                    <li><i class="fas fa-check"></i> Setup GitHub & Cloudflare Pages</li>
+                    <li><i class="fas fa-check"></i> Gratis Biaya Hosting Selamanya</li>
+                </ul>
+                <a href="#" class="btn btn-primary">Beli Sekarang</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="faq" id="faq">
+        <div class="section-header">
+            <h2>Pertanyaan yang Sering Diajukan</h2>
+            <p>Butuh informasi lebih lanjut? Simak beberapa jawaban berikut.</p>
+        </div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">Apakah benar-benar gratis biaya hosting? <i class="fas fa-chevron-down"></i></div>
+                <div class="faq-answer">Ya, benar. Dengan memanfaatkan infrastruktur Cloudflare Pages dan GitHub, file website statis Anda dihosting secara gratis tanpa biaya bulanan atau tahunan.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Apakah saya bisa pakai domain .com sendiri? <i class="fas fa-chevron-down"></i></div>
+                <div class="faq-answer">Tentu bisa. Anda tinggal membeli domain .com di penyedia domain, lalu mengarahkannya ke DNS Cloudflare secara gratis.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 SitusDigital. Didukung oleh GitHub & Cloudflare Pages.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
